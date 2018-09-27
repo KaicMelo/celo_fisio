@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Celofisio</title>
+    <link rel="stylesheet" type="text/css" href="_css/folha.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <style>
+			@font-face {
+            font-family: 'FonteLogo';
+            src: url(fonts/bubblegum-sans-regular.otf);
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #dddddd;
+            color: rgba(0, 0, 0, 1);
+        }
+        
+		#principal h2, .espec{
+		text-align:center;
+		}
+	
+		
+   
+        #contato p{
+    font-family: 'Comic Sans MS' ;
+           text-align: center;
+		   font-size:13pt;
+        }    
+    
+    </style>
+</head>
+<script language="javascript" src="_javascript/funcoes.js"></script>
+    <script>
+    
+    function calTotal(){
+    var qtd = parseInt(document.getElementById("cQtd").value);    tot = qtd *1500;
+    document.getElementById("cTot").value = tot;    
+        
+    }
+    </script>
+
+<body>
+    <div class="container" id="idContainer">
+        <div class="row" id="escpecTopo">
+                <nav id="menu" >
+                    
+                    <ul>
+                        <li onmouseover="mudaFoto('_imagens/Fisio.png')" onmouseout="mudaFoto('_imagens/whatss.png')"><a href="index.html" >Home</a></li>
+                        <li onmouseover="mudaFoto('_imagens/Quiro.png')" onmouseout="mudaFoto('_imagens/whatss.png')"><a href="especializacao.html" index.html>Especializações</a></li>
+                        <li onmouseover="mudaFoto('_imagens/dade.png' )" onmouseout="mudaFoto('_imagens/whatss.png')"><a href="fotos.html">Fotos</a></li>
+                        <li onmouseover="mudaFoto('_imagens/whatss.png')" onmouseout="mudaFoto('_imagens/whatss.png')"><a href="fale-conosco.html">Contato</a></li>
+                    </ul>
+                </nav>
+       
+        
+            <header class="col-md-10" id="cabecalho">
+                <hgroup>
+                    <h1>Dr. Marcelo dos Santos</h1>
+                    <br>
+
+                    <h2>Tratamento para coluna, articulações e dores musculares</h2>
+                </hgroup>
+
+            </header>
+            
+        </div>
+		<hgroup id="fotoLogo">
+                <img id="icone" src="_imagens/Fisio.png" alt="Responsive image" class="img-rounded" >
+            </hgroup>
+        <article id="noticia-principal">
+            <header id="cabecalho-artigo">
+                <hgroup>
+                    <h3>Home >> Contato</h3>
+                    
+                    
+                </hgroup>
+            </header>
+            <hgroup id="contato">
+                
+                
+                
+                <p>Tratamento para coluna, articulações e dores musculares</p>
+				<br>
+				<p>Crefito 150828-F</p>
+                <p>2875-8191/97321-9706</p>
+                <p>E-mail: celofisiosp@yahoo.com.br</p>
+                
+                    <p>Rua Apucarana,703-Tatuapé 
+                    Estação Carrão do Metrô</p>
+			</hgroup>
+        </article>
+
+
+
+        <footer id="rodape">
+            <p>Copyright &copy; 2017 - by Kaic Melo Santos
+                <br/> <a href="facebook.com " target="_blank">Facebook</a> | <a href="facebook.com " target="_blank">Twitter</a></p>
+        </footer>
+    </div>
+</body>
+
+</html>
